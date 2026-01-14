@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "GlyphOS Physics Kernel"
+version: "1.0.0"
+date-released: "2026-01-14"
+authors:
+  - family-names: "Place"
+    given-names: "Rich"
+repository-code: "https://github.com/Pi-Fy/glyphos-kernel"
+license: "GlyphOS Kernel License v1.0"
+keywords:
+  - "harmonic coherence"
+  - "pi-phi relationship"
+  - "golden ratio"
+  - "432 Hz"
+  - "sacred geometry"
+  - "MJLOG coupling"
+  - "quantum infrastructure"
+  - "frequency-geometry dynamics"
+abstract: "A deterministic coupling framework decoded from ancient Egyptian sacred mathematical architecture, implementing the closed π–φ–432 relationship. Provides physically-bound MJLOG kernel with ontology-agnostic predictions testable under any physical interpretation."

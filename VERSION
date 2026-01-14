@@ -1,0 +1,18 @@
+GlyphOS Physics Kernel
+Version 1.0
+Release Date: January 14, 2026
+
+INITIAL PUBLIC RELEASE
+
+This release includes:
+- Core MJLOG coupling framework with physical binding
+- Python implementation with dimensional consistency
+- Bloom Grid validation suite
+- Basic usage examples and documentation
+
+Status: Production-ready for research and validation
+
+Planned extensions (separate modules):
+- Quantum interpretive framework
+- Advanced diagnostic systems
+- Energy applications
