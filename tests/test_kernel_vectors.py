@@ -15,4 +15,5 @@ def test_harmonic_ladder_monotone_in_n():
     f0 = 432.0
     f1 = harmonic_ladder(f0, 1, 0)
     f2 = harmonic_ladder(f0, 2, 0)
-    assert f2 > f1 > 0
+    assert f2 < f1 < f0
+
