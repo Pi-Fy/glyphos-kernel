@@ -1,20 +1,26 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "GlyphOS Physics Kernel"
-version: "1.0.0"
-date-released: "2026-01-14"
-authors:
+version: "1.0.2"
+date-released: "2026-01-16"
+author:
   - family-names: "Place"
-    given-names: "Rich"
+    given-names: "Richard"
 repository-code: "https://github.com/Pi-Fy/glyphos-kernel"
 license: "GlyphOS Kernel License v1.0"
 keywords:
-  - "harmonic coherence"
-  - "pi-phi relationship"
+  - "computational physics"
+  - "harmonic coupling"
+  - "geometric coupling"
   - "golden ratio"
-  - "432 Hz"
-  - "sacred geometry"
-  - "MJLOG coupling"
-  - "quantum infrastructure"
+  - "MJLOG coupling matrix"
+  - "retarded-time phase"
+  - "falsification framework"
   - "frequency-geometry dynamics"
-abstract: "A deterministic coupling framework decoded from ancient Egyptian sacred mathematical architecture, implementing the closed π–φ–432 relationship. Provides physically-bound MJLOG kernel with ontology-agnostic predictions testable under any physical interpretation."
+abstract: >
+  A computational physics framework implementing a deterministic coupling
+  matrix (MJLOG) for modeling harmonic systems under geometric and temporal
+  constraints. The framework incorporates dimensionless geometric constants,
+  retarded-time phase dynamics, and built-in falsification controls. All
+  predictions are testable and reproducible via an open-source reference
+  implementation.

@@ -43,8 +43,7 @@ Potential applications of the framework to specific physical systems are conside
 ### Historical and Cultural Studies
 - Archaeological interpretations
 - Historical priority claims
-- Cultural transmission theories
-- Ancient knowledge systems
+- Cultural context research
 
 **Status:** Contextual observations - not part of mathematical validation
 

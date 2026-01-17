@@ -2,12 +2,13 @@
 
 ## What This Is (Ontological Category)
 
-GlyphOS Kernel v1.0 is a **computational physics framework** implementing a deterministic coupling matrix for modeling wave-network interactions using π–φ–432 harmonic structure.
+GlyphOS Kernel v1.0.x is a **computational physics framework** implementing a deterministic coupling matrix for modeling coupled harmonic systems under π–φ–432 geometric constraints.
+
 
 ### Primary Classification
 - **Computational Physics**: Novel mathematical framework for coupled harmonic systems with geometric constraints
 - **Mathematical Physics**: Rigorous mathematical structure grounded in dimensional analysis and falsifiable predictions
-- **Applied Framework**: Makes testable predictions about observable physical quantities
+- **Applied Framework**: Makes testable predictions about measurable properties of harmonic systems
 
 ### Academic Categorization
 For arXiv submission purposes, this work fits:
@@ -89,36 +90,50 @@ Spectral densification produces predictable changes in 2×2 determinant distribu
 ### 4. Reference Implementation
 - Python package with pytest validation suite
 - Input validation and dimensional consistency checks
-- Documented API with usage examples
+- Documented API with input validation and dimensional consistency checks
 - Open-source license for academic use
+
+## Phase Input Specification
+
+The kernel requires phase input θ_ij that satisfies:
+
+**Mathematical Requirements:**
+- Real-valued: θ_ij ∈ ℝ
+- Interpretable as relative angular displacement or temporal phase
+- Dimensionally consistent (radians or equivalent angular measure)
+
+**Valid Source Examples:**
+- **Orbital mechanics**: Geometric angles between celestial bodies
+- **Wave systems**: Phase relationships in coupled oscillators
+- **Time series**: Instantaneous phase from Hilbert transform or wavelet analysis
+- **Spatial networks**: Angular relationships in structured geometries
+- **Quantum systems**: Relative phase between coherent states (where measurable)
+
+**Framework Agnosticism:**
+The kernel does not specify the physical origin of phase values. Any system producing phase relationships that satisfy the mathematical requirements above may be modeled using the MJLOG coupling matrix.
+
+**Module Responsibility:**
+User-implemented modules must validate that their phase extraction method:
+1. Produces real-valued angular quantities
+2. Maintains dimensional consistency
+3. Preserves physical interpretation appropriate to the source system
+
+The kernel validates dimensionality but does not enforce physical interpretation.
 
 ## Testable Predictions
 
-The framework makes **falsifiable predictions** about systems modeled with MJLOG:
+The framework specifies qualitative, falsifiable predictions about systems modeled with MJLOG coupling:
 
-### 1. Phase Coherence
-Systems coupled at π_φ ratios should exhibit non-trivial phase correlation:
-```
-R = ⟨exp(i·θ_ij)⟩ > threshold
-```
-Measurable via mean resultant length of phase distribution.
+- Phase coherence statistics should change systematically when geometric structure is present.
+- Phase gradients should vary monotonically with modulator values.
+- Determinant statistics of MJLOG minors should vary with spectral density.
+- All observed structure should collapse under phase scramble or τ-shuffle controls.
 
-### 2. Gradient Scaling
-Phase gradients must scale linearly with modulator values:
-```
-∇θ_j = k · a_j + noise
-```
-Linear regression should show R² > 0.95 for clean systems.
+Quantitative thresholds are intentionally not fixed in v1.0 and must be established empirically on a per-system basis.
 
-### 3. Minor Statistics
-2×2 determinant distributions should show:
-- Systematic changes with spectral density
-- Collapse under phase scramble
-- Loss of geometric structure under τ-shuffle
-
-### 4. Control Failure
+### Control Failure Criteria
 If structure persists after fatal controls, hypothesis is falsified:
-- High R after phase scramble → Spurious pattern
+- High coherence after phase scramble → Spurious pattern
 - Unchanged statistics after τ-shuffle → Not geometry-dependent
 
 ## Empirical Status
@@ -168,7 +183,7 @@ If structure persists after fatal controls, hypothesis is falsified:
 7. Quantify structure loss in controls
 
 **Success criteria:**
-- Original data shows structure (R > 0.1, distinctive minor stats)
+- Original data shows nontrivial structure (distinctive minor statistics and coherence measures)
 - MJLOG captures more variance than simpler models
 - Controls destroy predictive power
 
@@ -211,16 +226,16 @@ If structure persists after fatal controls, hypothesis is falsified:
 - Spiritual or esoteric interpretations
 
 ❌ **Unvalidated Applications**
-- Zero-point energy extraction
-- Electrogravitic propulsion
+- Energy system applications
+- Propulsion technologies
 - Medical therapeutics
-- Quantum financial systems
+- Financial modeling systems
 - Specific device implementations
 
-❌ **Historical Priority Claims**
-- Archaeological discoveries
-- Ancient knowledge decoding
-- Cultural transmission theories
+❌ **Historical and Cultural Studies**
+- Archaeological interpretations
+- Historical priority claims
+- Cultural context research
 
 ❌ **Performance Guarantees**
 - Commercial application success
@@ -274,7 +289,7 @@ We commit to:
 All code, tests, and validation protocols are:
 - Open-source (MIT-like license for academic use)
 - Version-controlled (GitHub)
-- Documented (inline comments, API docs, examples)
+- Documented with full API specification
 - Testable (pytest suite with coverage reporting)
 
 Independent replication is **encouraged and supported**.
