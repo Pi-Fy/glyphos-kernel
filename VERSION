@@ -2,18 +2,17 @@ GlyphOS Physics Kernel
 Version 1.0.3
 Release Date: January 24, 2026
 
-DOCUMENTATION CLEANUP RELEASE
+INITIAL PUBLIC RELEASE
 
 This release includes:
 - Core MJLOG coupling framework with physical binding
 - Python implementation with dimensional consistency
-- Validation harness with falsification controls
-- Complete documentation suite
-- Clean metadata for arXiv submission
+- Bloom Grid validation suite
+- Basic usage examples and documentation
 
 Status: Production-ready for research and validation
 
 Planned extensions (separate modules):
-- Domain-specific applications (biology, acoustics, etc.)
-- Advanced validation metrics
-- Performance optimizations
+- Quantum interpretive framework
+- Advanced diagnostic systems
+- Energy applications
