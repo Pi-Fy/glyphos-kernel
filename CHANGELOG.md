@@ -5,6 +5,16 @@ All notable changes to GlyphOS Physics Kernel will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.3] - 2026-01-24
+
+### Changed
+- **Documentation cleanup for arXiv submission**
+  - Removed "Modular-Jones-Logarithmic" expansion from README and mjlog.md
+  - Cleaned placeholder contact information in scope.md and ONTOLOGY.md
+  - Updated VERSION file with accurate release description
+  - Minor formatting consistency improvements
+- **No code or mathematical changes** - all framework logic unchanged
+
 ## [1.0.2] - 2026-01-16
 
 ### Changed

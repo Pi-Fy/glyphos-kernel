@@ -1,6 +1,6 @@
 GlyphOS Kernel License v1.0
 
-Copyright (c) 2026 Rich Place
+Copyright (c) 2026 Richard Place
 
 This computational physics framework provides a deterministic coupling 
 matrix for modeling harmonic systems with geometric constraints.
@@ -13,7 +13,7 @@ PERMISSIONS (Free Use):
 ✓ Validation, testing, and peer review
 
 REQUIREMENTS:
-- Attribution: "Based on GlyphOS Kernel by Rich Place (github.com/Pi-Fy/glyphos-kernel)"
+- Attribution: "Based on GlyphOS Kernel by Richard Place (github.com/Pi-Fy/glyphos-kernel)"
 - This license included in distributions
 - Modifications must be documented
 - Publication of validation results encouraged
@@ -46,7 +46,6 @@ regulatory approval and clinical validation.
 
 ---
 For commercial licensing inquiries: licensing@glyphos.ai
-For academic correspondence: [contact information]
+For academic correspondence: See GitHub profile
 
-Version: 1.0
-Last updated: January 2026
+

@@ -162,7 +162,7 @@ To maintain academic integrity, **v1.0 core will NOT include:**
 ## Contact
 
 **Technical Issues:** GitHub Issues  
-**Academic Correspondence:** [Contact TBD]  
+**Academic Correspondence:** licensing@glyphos.ai  
 **Commercial Licensing:** licensing@glyphos.ai
 
 ---
