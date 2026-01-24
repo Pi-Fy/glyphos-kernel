@@ -24,7 +24,7 @@ The kernel is designed as a **computational physics framework**, not a replaceme
 
 ## Mathematical Framework
 
-The MJLOG (Modular-Jones-Logarithmic) coupling matrix is defined as:
+The MJLOG coupling matrix is defined as:
 
 ```
 M_ij = log((ν_i / ν_0) · a_j) · exp(i · θ_ij)

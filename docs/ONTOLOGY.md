@@ -321,15 +321,17 @@ If you build applications or extensions:
 ## Contact for Academic Inquiries
 
 **Technical Questions**: GitHub Issues at github.com/Pi-Fy/glyphos-kernel
-**Replication Support**: [Technical support contact]
-**Academic Correspondence**: [Academic contact email]
+**Academic Correspondence**: licensing@glyphos.ai
+
+## Licensing
+
 **Commercial Licensing**: licensing@glyphos.ai
 
 ---
 
 ## Summary for Reviewers
 
-**GlyphOS Kernel v1.0** is a **computational physics framework** providing:
+**GlyphOS Kernel v1.0.x** is a **computational physics framework** providing:
 
 1. **Mathematical structure**: MJLOG coupling matrix with π–φ–432 harmonic relationships
 2. **Dimensional rigor**: All quantities properly normalized and consistent
